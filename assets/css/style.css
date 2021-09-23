@@ -63,8 +63,10 @@ figure {
     background-position: center;
 }
 
-/* Changed the footer div to a semantic footer tag. 
-Removed the font size and used a h4 tag instead */
+/* 
+    Changed the footer div to a semantic footer tag. 
+    Removed the font size and used a h4 tag instead.
+*/
 footer {
     padding: 30px;
     clear: both;
@@ -79,7 +81,7 @@ article {
     margin-left: 20px;
 }
 
-/* fdas */
+/* Changed .benefits to aside semantic tag because it is for content aside from the page content */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -92,70 +94,21 @@ aside {
     color: #ffffff;
 }
 
-/* .benefit-lead,
-.benefit-brand,
-.benefit-cost  */
+/* These are all of the same so I combined them  */
 aside p {
     margin-bottom: 32px;
 }
-
-/* .benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
-
-/* .benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
-
-/* .benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
 
 aside h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* .benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
-/* .benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
 aside img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-/* .benefit-lead img,
-.benefit-brand img,
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
-
-/* .benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
-
-/* .benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
 
 .float-left {
     float: left;
@@ -179,14 +132,12 @@ aside img{
     color: #ffffff;
 }
 
-/* Combined these three properties because they are doing the same thing */
 .search-engine-optimization img,
 .online-reputation-management img, 
 .social-media-marketing img {
     max-height: 200px;
 }
 
-/* Combined these three properties because they are doing the same thing */
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2 {
